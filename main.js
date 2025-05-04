@@ -64,7 +64,7 @@ console.log (parOuImpar(14))
 
 */
 
-/* Exemplo 6 */
+/* Exemplo 6 
 let numero =10
 
 const button = document.querySelector("button")
@@ -75,3 +75,17 @@ button.addEventListener("click", function(){
 })
 
 console.log (numero)
+*/
+
+/* Exemplo 7 */
+
+let numero = 10
+
+const button = document.querySelector("button")
+
+button.addEventListener("click", () => {
+    numero++
+    console.log(numero)
+
+})
+    console.log(numero)
