@@ -35,7 +35,6 @@ console.log (mensagemBoasVindas(nome,cargo))
 
 */
 
-/* */
 
 /* Exemplo 4
 
@@ -52,3 +51,17 @@ console.log (multiplicacao2)
 console.log (multiplicacao3)
 */
 
+/* Exemplo 5
+
+function parOuImpar(numero){
+    if(numero % 2 === 0){
+        return "Par"
+    }
+    return "Impar"
+}
+
+console.log (parOuImpar(14))
+
+*/
+
+/* Exemplo 6 */
